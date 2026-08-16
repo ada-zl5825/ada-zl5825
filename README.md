@@ -23,7 +23,7 @@
 
 I work where machine learning has to live inside explicit constraints: local inference, cited retrieval, reproducible experiments, and a human-review boundary.
 
-我在伦敦，帝国理工应用计算科学与工程硕士在读，目前在 Microsoft Core AI 做实习研究员。关心模型怎么进系统，也关心系统最后能不能站得住。
+我在伦敦，帝国理工应用计算科学与工程硕士在读，目前在 Microsoft Core AI 做实习研究员。
 
 ## Now
 
