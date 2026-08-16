@@ -52,11 +52,13 @@ I care more about typed boundaries, evaluation, and failure modes than about sta
 ## Public activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ada-zl5825&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" alt="GitHub stats for ada-zl5825" height="160">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ada-zl5825&layout=compact&theme=transparent&hide_border=true" alt="Top languages for ada-zl5825" height="160">
+  <img src="./assets/stats-dark.png#gh-dark-mode-only" alt="GitHub activity for Zhifeng Li" height="180">
+  <img src="./assets/langs-dark.png#gh-dark-mode-only" alt="Top languages for Zhifeng Li" height="180">
+  <img src="./assets/stats-light.png#gh-light-mode-only" alt="GitHub activity for Zhifeng Li" height="180">
+  <img src="./assets/langs-light.png#gh-light-mode-only" alt="Top languages for Zhifeng Li" height="180">
 </p>
 
-Public contribution counts understate the work: several active repositories are private. The [portfolio](https://my-portfolio-pink-chi-48.vercel.app) is the complete record.
+These cards include private repositories. The public contribution graph still hides that work. The [portfolio](https://my-portfolio-pink-chi-48.vercel.app) is the complete record.
 
 ## Contact
 
