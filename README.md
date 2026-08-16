@@ -1,7 +1,6 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ada-zl5825/ada-zl5825/main/assets/hero-dark.svg">
-  <img src="https://raw.githubusercontent.com/ada-zl5825/ada-zl5825/main/assets/hero-light.svg" alt="Zhifeng Li terminal banner" width="100%">
-</picture>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ada-zl5825/ada-zl5825/main/assets/hero-dark.svg" alt="Zhifeng Li terminal banner" width="100%">
+</p>
 
 <div align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
