@@ -1,24 +1,25 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
-  <img src="./assets/header-light.svg" alt="Zhifeng Li — AI/ML Engineer and Computational Scientist" width="100%">
-</picture>
+<div align="center">
+  <img src="./assets/header-dark.png#gh-dark-mode-only" alt="Zhifeng Li — AI/ML Engineer and Computational Scientist" width="100%">
+  <img src="./assets/header-light.png#gh-light-mode-only" alt="Zhifeng Li — AI/ML Engineer and Computational Scientist" width="100%">
+</div>
 
-<p align="center">
-  <a href="https://my-portfolio-pink-chi-48.vercel.app">Portfolio</a>
-  ·
-  <a href="https://my-portfolio-pink-chi-48.vercel.app/zh">中文作品集</a>
-  ·
-  <a href="https://my-portfolio-pink-chi-48.vercel.app/resume/zhifeng-li-resume.pdf">CV</a>
-  ·
-  <a href="https://github.com/ada-zl5825/aruco-mediapipe-hand-tracking">Public code</a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/London-UK-0a0a0a?style=flat-square" alt="London, UK">
-  <img src="https://img.shields.io/badge/MSc_ACSE-Imperial_College_London-002147?style=flat-square" alt="MSc ACSE, Imperial College London">
-  <img src="https://img.shields.io/badge/Research_Intern-Microsoft_Core_AI-00A4EF?style=flat-square" alt="Research Intern, Microsoft Core AI">
-  <img src="https://img.shields.io/badge/BSc_CS-First_Class-2e2e2e?style=flat-square" alt="BSc Computer Science, First Class">
-</p>
+<div align="center">
+  <p>
+    <a href="https://my-portfolio-pink-chi-48.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0a0a0a?style=flat-square" alt="Portfolio"></a>
+    <a href="https://my-portfolio-pink-chi-48.vercel.app/zh"><img src="https://img.shields.io/badge/中文作品集-0a0a0a?style=flat-square" alt="中文作品集"></a>
+    <a href="https://my-portfolio-pink-chi-48.vercel.app/resume/zhifeng-li-resume.pdf"><img src="https://img.shields.io/badge/CV-0a0a0a?style=flat-square" alt="CV"></a>
+    <a href="https://github.com/ada-zl5825/aruco-mediapipe-hand-tracking"><img src="https://img.shields.io/badge/Public_code-0a0a0a?style=flat-square" alt="Public code"></a>
+  </p>
+  <p>
+    <img src="https://img.shields.io/badge/London-UK-111111?style=flat-square" alt="London, UK">
+    <img src="https://img.shields.io/badge/MSc_ACSE-Imperial-002147?style=flat-square" alt="MSc ACSE, Imperial College London">
+    <img src="https://img.shields.io/badge/Research_Intern-Microsoft_Core_AI-00A4EF?style=flat-square" alt="Research Intern, Microsoft Core AI">
+    <img src="https://img.shields.io/badge/BSc_CS-First_Class-2e2e2e?style=flat-square" alt="BSc Computer Science, First Class">
+  </p>
+  <p>
+    <img src="https://skillicons.dev/icons?i=python,cpp,ts,pytorch,fastapi,postgres,azure,opencv" alt="Python, C++, TypeScript, PyTorch, FastAPI, PostgreSQL, Azure, OpenCV">
+  </p>
+</div>
 
 I work where machine learning has to live inside explicit constraints: local inference, cited retrieval, reproducible experiments, and a human-review boundary.
 
