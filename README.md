@@ -1,7 +1,7 @@
-<div align="center">
-  <img src="./assets/hero-dark.svg#gh-dark-mode-only" alt="Zhifeng Li terminal banner" width="100%">
-  <img src="./assets/hero-light.svg#gh-light-mode-only" alt="Zhifeng Li terminal banner" width="100%">
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ada-zl5825/ada-zl5825/main/assets/hero-dark.svg">
+  <img src="https://raw.githubusercontent.com/ada-zl5825/ada-zl5825/main/assets/hero-light.svg" alt="Zhifeng Li terminal banner" width="100%">
+</picture>
 
 <div align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
@@ -25,7 +25,7 @@
   <img src="https://img.shields.io/badge/BSc_CS-First_Class-2e2e2e?style=flat-square" alt="BSc Computer Science, First Class">
 </div>
 
-<img src="./assets/divider.svg" alt="" width="100%">
+<img src="https://raw.githubusercontent.com/ada-zl5825/ada-zl5825/main/assets/divider.svg" alt="" width="100%">
 
 I work where machine learning has to live inside explicit constraints: local inference, cited retrieval, reproducible experiments, and a human-review boundary.
 

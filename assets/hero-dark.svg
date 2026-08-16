@@ -1,12 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="268" viewBox="0 0 880 268" role="img" aria-label="Zhifeng Li">
+  <style>
+    .orb-a { animation: drift-a 14s ease-in-out infinite; }
+    .orb-b { animation: drift-b 16s ease-in-out infinite; }
+    .cursor { animation: blink 1.1s steps(2, start) infinite; }
+    .bar { animation: hue 8s linear infinite; }
+    @keyframes drift-a {
+      0%, 100% { transform: translate(0, 0); }
+      50% { transform: translate(70px, 40px); }
+    }
+    @keyframes drift-b {
+      0%, 100% { transform: translate(0, 0); }
+      50% { transform: translate(-70px, -50px); }
+    }
+    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes hue { to { filter: hue-rotate(60deg); } }
+  </style>
   <defs>
-    <linearGradient id="aurora" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#7dd3fc">
-        <animate attributeName="stop-color" values="#7dd3fc;#818cf8;#22d3ee;#7dd3fc" dur="10s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#818cf8">
-        <animate attributeName="stop-color" values="#818cf8;#22d3ee;#7dd3fc;#818cf8" dur="10s" repeatCount="indefinite"/>
-      </stop>
+    <linearGradient id="aurora" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
     </linearGradient>
     <radialGradient id="orb" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.45"/>
@@ -15,41 +29,26 @@
     <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
       <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#262626" stroke-width="1"/>
     </pattern>
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="16" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
 
   <rect width="880" height="268" fill="#0a0a0a"/>
   <rect width="880" height="268" fill="url(#grid)" opacity="0.55"/>
-  <rect width="880" height="3" fill="url(#aurora)"/>
+  <rect class="bar" width="880" height="3" fill="url(#aurora)"/>
 
-  <circle cx="140" cy="70" r="90" fill="url(#orb)">
-    <animate attributeName="cx" values="140;210;140" dur="14s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="70;120;70" dur="11s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="720" cy="190" r="110" fill="url(#orb)" opacity="0.7">
-    <animate attributeName="cx" values="720;650;720" dur="16s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="190;130;190" dur="13s" repeatCount="indefinite"/>
-  </circle>
+  <circle class="orb-a" cx="140" cy="70" r="90" fill="url(#orb)"/>
+  <circle class="orb-b" cx="720" cy="190" r="110" fill="url(#orb)" opacity="0.7"/>
 
   <rect x="28" y="28" width="824" height="212" rx="14" fill="#111111" stroke="#262626"/>
   <circle cx="52" cy="50" r="5" fill="#f87171"/>
   <circle cx="70" cy="50" r="5" fill="#fbbf24"/>
   <circle cx="88" cy="50" r="5" fill="#34d399"/>
-  <text x="112" y="55" fill="#737373" font-family="ui-monospace, SFMono-Regular, Consolas, Menlo, monospace" font-size="12">zhifeng@london  acse</text>
+  <text x="112" y="55" fill="#737373" font-family="ui-monospace, SFMono-Regular, Consolas, Menlo, monospace" font-size="12">zhifeng@london -- acse</text>
 
   <text x="48" y="96" fill="#22d3ee" font-family="ui-monospace, SFMono-Regular, Consolas, Menlo, monospace" font-size="13">$ whoami</text>
   <text x="48" y="122" fill="#f5f5f5" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="36" font-weight="700">Zhifeng Li</text>
-  <text x="48" y="154" fill="#a3a3a3" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16">AI/ML Engineer &amp; Computational Scientist</text>
-  <text x="48" y="186" fill="#737373" font-family="ui-monospace, SFMono-Regular, Consolas, Menlo, monospace" font-size="13">London · Imperial College London · Microsoft Core AI</text>
+  <text x="48" y="154" fill="#a3a3a3" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16">AI/ML Engineer and Computational Scientist</text>
+  <text x="48" y="186" fill="#737373" font-family="ui-monospace, SFMono-Regular, Consolas, Menlo, monospace" font-size="13">London  |  Imperial College London  |  Microsoft Core AI</text>
   <text x="48" y="214" fill="#22d3ee" font-family="ui-monospace, SFMono-Regular, Consolas, Menlo, monospace" font-size="13">$ focus</text>
-  <text x="118" y="214" fill="#e5e5e5" font-family="ui-monospace, SFMono-Regular, Consolas, Menlo, monospace" font-size="13">evidence-grounded RAG · scientific computing</text>
-  <rect x="456" y="202" width="8" height="16" fill="#7dd3fc">
-    <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
-  </rect>
+  <text x="118" y="214" fill="#e5e5e5" font-family="ui-monospace, SFMono-Regular, Consolas, Menlo, monospace" font-size="13">evidence-grounded RAG  |  scientific computing</text>
+  <rect class="cursor" x="456" y="202" width="8" height="16" fill="#7dd3fc"/>
 </svg>
